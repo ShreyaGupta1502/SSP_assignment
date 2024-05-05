@@ -1,0 +1,100 @@
+.mainContainer
+{
+    height : auto;
+    width : 97%;
+    padding : 10px;
+    margin : 10px;
+    border : 1px solid black;
+}
+.header
+{
+    background : linear-gradient(to left,magenta, red);
+    height : 30%;
+    width : 97%;
+    padding : 10px;
+    margin : 10px;
+    border : 1px solid black;
+    text-align : center;
+    display : flex;
+}
+.heading
+{
+    margin : auto;
+    color : white;
+    flex-grow : 1;
+}
+.toolBar
+{
+    background : linear-gradient(to left,magenta,red);
+    padding : 5px;
+    margin : 10px;
+    width : 97%;
+    height : 45px;
+    border : 2px solid magenta;
+    text-align : center;
+    color : white;
+    display : flex;
+}
+.toolBarItem
+{
+    margin-top : 10px;
+    flex-grow : 1;
+    font-size : 15pt;
+}
+.toolBarLink
+{
+    color : white;
+    text-decoration: none;
+    font-weight : bold;
+}
+.content
+{
+    background-image : linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size : 100% 100%;
+    padding : 5px;
+    margin : 10px;
+    width : 97%;
+    height : 400px;
+    border : 2px solid magenta;
+    overflow : scroll;
+}
+.contentText
+{
+    font-size : 20pt;
+    font-weight : bold;
+}
+.latestLinks
+{
+    text-decoration : none;
+    color : blueviolet;
+}
+.footer
+{
+    color : white;
+    font-weight : bold;
+    text-align : center;
+}
+.gallery
+{
+    display : flex;
+    padding : 10px;
+    margin : 10px;
+}
+.heritageGallery
+{
+    display : flex;
+    margin : 10px;
+    padding : 10px;
+}
+.heritageList
+{
+    padding : 10px;
+    margin : 10px;
+}
+.heritageSitesLink
+{
+    text-decoration : none;
+    font-weight : bold;
+    color : black;
+}

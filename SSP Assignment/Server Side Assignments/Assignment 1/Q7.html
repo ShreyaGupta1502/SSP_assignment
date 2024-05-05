@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang = 'en'>
+    <head>
+        <title>The Seventh Page</title>
+        <meta charset = 'utf-8'>
+        <style>
+            #header
+            {
+                display : flex;
+                padding : 5px;
+            }
+            h1
+            {
+                color : red;    
+            }
+            img
+            {
+                width : 50px;
+                height : 50px;
+                margin : 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "header">
+            <img src = "images/manager.png">
+            <h1>Employee Registration Form</h1>
+        </div>
+        <form>
+            <input type = 'radio' name = 'abbreviation'>Mr.
+            &nbsp;&nbsp;
+            <input type = 'radio' name = 'abbreviation'>Mrs.
+            &nbsp;&nbsp;
+            <input type = 'radio' name  = 'abbreviation'>Ms.<br>
+            First Name : <input type ='text' placeholder = 'First Name'><br>
+            Last Name : <input type = 'text' placeholder = 'Last Name'><br>
+            Mail Address 1 : <input type = 'text'><br>
+            Mail Address 2 : <input type = 'text'><br>
+            City : <input type = 'text'><br>
+            State : <select>
+                <option>Gujrat</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+            </select><br>
+            Zip : <input type = 'text'><br>
+            Uplaod Photo : <input type = 'file'><br>
+            E-Mail : <input type ='text'><br>
+            Mobile : <input type = 'text' value = '+91'><br>
+            Languages Known : <input type = 'checkbox'>Gujrati<br>
+            <input type = 'checkbox'>Hindi<br>
+            <input type = 'checkbox'>English<br>
+            <input type = 'checkbox'>Marathi<br>
+            Additional Information : <textarea rows = "4" cols = "50" placeholder = "Optional"></textarea><br>
+            <button type = 'submit'>submit</button>
+            &nbsp;&nbsp;<input type = 'reset'>
+        </form>
+    </body>
+</html>

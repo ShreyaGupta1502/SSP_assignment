@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang = 'en'>
+    <head>
+        <title>Slideshow</title>
+        <meta charset = 'utf-8'>
+        <script>
+            var currentIndex = 0;
+            var images = ["image-1.jpg", "image-2.jpg", "image-3.jpg", "image-4.jpg","image-5.jpg"]; // Add more image URLs as needed
+            function prevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            document.getElementById("slideshow-image").src = images[currentIndex];
+            }
+
+            function nextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            document.getElementById("slideshow-image").src = images[currentIndex];
+            }
+
+        </script>
+    </head>
+    <body>
+        <div class="slideshow-container">
+            <img id="slideshow-image" src="image-1.jpg" alt="Slideshow Image">
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>  
+    </body>
+</html>

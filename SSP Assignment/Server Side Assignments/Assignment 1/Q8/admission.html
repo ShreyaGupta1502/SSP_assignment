@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang = 'en'>
+    <head>
+        <title>IET DAVV</title>
+        <meta charset = 'utf-8'>
+        <link rel = "stylesheet" href = "style.css">
+        <script>
+            function submitForm()
+            {
+                alert("Applying For the Admission");
+            } 
+        </script>
+    </head>
+    <body>
+        <div id = "mainContainer" class = "mainContainer">
+            <div id = "header" class = "header">
+                <img src = "images/logo.png">
+                <h1 class = "heading">Institute Of Engineering And Technology</h1>
+            </div>
+            <div id = "toolBar" class = "toolBar">
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "index.html">Home</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "academics.html">Academics</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "admission.html">Admission</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "aboutUs.html">About Us</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "https://www.youtube.com/@blastatiet">Live @ IET</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "https://www.ecellietdavv.in/newsletter">IET - News Letter</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "reachUs.html">Reach Us</a></span>
+            </div>
+            <div id = "content" class = "content">
+                <span id = "contentText" class = "contentText">
+                    <h3>Get Admission in IET DAVV</h3>
+                    Enter First Name : <input type = 'text'><br>
+                    Enter Last Name : <input type = 'text'><br>
+                    Select Your State Of Residence : <select>
+                        <option>Select State</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Gujrat</option>
+                        <option>Maharashtra</option>
+                    </select><br>
+                    Enter Your Email Id : <input type = 'email'><br>
+                    Enter Password : <input type = 'password'><br>
+                    Enter Your Address : <textarea row = '5' col = '5'></textarea><br>
+                    Choose Your Passport size Photo : <input type = 'file'><br>
+                    Choose Your JEE Marksheet : <input type = 'file'><br>
+                    Choose Your Aadhar Card : <input type = 'file'><br>
+                    Select Stream : <select>
+                        <option>Select Stream</option>
+                        <option>Computer Engineering</option>
+                        <option>Sciences</option>
+                    </select><br>
+                    <button type = 'button' onclick = 'submitForm()'>Apply</button>
+                </span>
+            </div>
+            <div id = "footer" class = "footer">
+                <h3 class = "header">&copy;Institute Of Engineering And Technology</h3>
+            </div>
+        </div>
+    </body>
+</html>

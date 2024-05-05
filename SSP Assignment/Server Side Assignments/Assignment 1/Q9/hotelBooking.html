@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang = 'en'>
+    <head>
+        <title>Tourism Website</title>
+        <meta charset = 'utf-8'>
+        <link rel = "stylesheet" href = "style.css">
+        <script>
+            function bookRoom()
+            {
+                alert("A room has been booked");
+            }
+        </script>
+    </head>
+    <body>
+        <div class = 'mainContainer'>
+            <div class = 'header'>
+                <img src = 'images/logo.jpg' width = '100px' height = '50px'>
+                <h1 class = 'heading'>RajHans Tourism</h1>
+            </div>
+            <div id = "toolBar" class = "toolBar">
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "index.html">Home</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "heritage.html">Heritage</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "hotelBooking.html">Hotel Booking</a></span>
+                <span class = "toolBarItem"><a class = "toolBarLink" href = "gallery.html">Gallery</a></span>
+            </div>
+            <div id = "content" class = "content">
+                <span id = "contentText" class = "contentText">
+                    <h1>Hotek Bookings</h1>
+                    <form>
+                        Enter Name : <input type = 'text'><br>
+                        Enter Email : <input type = 'email'><br>
+                        Enter Phone Number : <input type = 'text'><br>
+                        Select Type of Room : <select>
+                            <option>Duplex</option>
+                            <option>Triple Occupancy</option>
+                            <option>Suite Room</option>
+                        </select>
+                        <button type = 'button' onclick = 'bookRoom()'>Book A Room</button>
+                    </form>
+                </span>
+            </div>
+            <div id = "footer" class = "footer">
+                <h3 class = "header">&copy;Institute Of Engineering And Technology</h3>
+            </div>
+        </div>
+    </body>
+</html>

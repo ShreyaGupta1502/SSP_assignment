@@ -1,0 +1,12 @@
+This is the list of items which are to be created later on : 
+2. gallery.html in this file i have to add photos of indore.
+4.heritage1.html
+5.heritage2.html
+6.heritage3.html
+7.heritage4.html
+8.heritage5.html
+9.heritage6.html
+10.heritage7.html
+11.heritage8.html
+12.heritage9.html
+13.heritage10.html

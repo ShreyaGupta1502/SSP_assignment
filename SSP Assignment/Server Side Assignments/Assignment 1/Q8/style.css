@@ -1,0 +1,82 @@
+.mainContainer
+{
+    border : 2px solid magenta;
+    width : 95%;
+    height : 650px;
+    padding : 10px;
+    margin : 10px;
+}
+.header
+{
+    background : linear-gradient(to left,magenta,red);
+    padding : 5px;
+    margin : 10px;
+    width : 97%;
+    height : 45px;
+    border : 2px solid magenta;
+    text-align : center;
+    color : white;
+    display : flex;
+}
+.heading
+{
+    margin-top : 5px;
+    flex-grow: 1;
+}
+.toolBar
+{
+    background : linear-gradient(to left,magenta,red);
+    padding : 5px;
+    margin : 10px;
+    width : 97%;
+    height : 45px;
+    border : 2px solid magenta;
+    text-align : center;
+    color : white;
+    display : flex;
+}
+.toolBarItem
+{
+    margin-top : 10px;
+    flex-grow : 1;
+    font-size : 15pt;
+}
+.toolBarLink
+{
+    color : white;
+    text-decoration: none;
+    font-weight : bold;
+}
+.content
+{
+    background-image : linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(images/college.jpeg);
+    background-repeat: no-repeat;
+    background-size : 100% 100%;
+    padding : 5px;
+    margin : 10px;
+    width : 97%;
+    height : 400px;
+    border : 2px solid magenta;
+    overflow : scroll;
+}
+.contentText
+{
+    font-size : 20pt;
+}
+.latestLinks
+{
+    text-decoration : none;
+    color : blueviolet;
+}
+.footer
+{
+    color : white;
+    font-weight : bold;
+    text-align : center;
+}
+.gallery
+{
+    display : flex;
+    padding : 10px;
+    margin : 10px;
+}
